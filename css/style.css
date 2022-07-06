@@ -69,6 +69,7 @@ a {
   font-size: 4.5rem;
   color: #121212;
   letter-spacing: -0.12rem;
+  line-height: 1.1;
 }
 
 .sec-header p {
@@ -100,12 +101,8 @@ a {
   bottom: 0;
   height: 100%;
   width: 100%;
-  background: radial-gradient(
-    circle at center,
-    rgba(177, 177, 177, 0.2) 40%,
-    black
-  );
-  opacity: 0.8;
+  background: radial-gradient(circle at center, rgba(0, 0, 0, 0.2) 40%, black);
+  opacity: 0.9;
 }
 
 .main-header-text__box {
@@ -191,6 +188,7 @@ a {
 }
 
 .donate-plan-card {
+  flex-basis: 33.33%;
   font-family: "Poppins", sans-serif;
   background-color: rgba(79, 157, 166, 0.1);
   border-radius: 0.6rem;
