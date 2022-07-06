@@ -33,7 +33,7 @@ a {
   outline: none;
   background-color: #ff5959;
   padding: 1.2rem 1.6rem;
-  border-radius: 0.8rem;
+  border-radius: 0.5rem;
   cursor: pointer;
   font-size: 2rem;
   font-weight: 600;
@@ -41,13 +41,13 @@ a {
 }
 
 .small-sec,
-.larg-sec {
+.large-sec {
   width: 60%;
-  margin: 0 auto 3.4rem;
+  margin: 0 auto 6rem;
   padding: 1.2rem;
 }
 
-.larg-sec {
+.large-sec {
   width: 80%;
 }
 
@@ -55,12 +55,12 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.8rem;
+  gap: 1.6rem;
   text-align: center;
   margin-bottom: 2.8rem;
 }
 
-.larg-sec .sec-header {
+.large-sec .sec-header {
   width: 60%;
   margin: 0 auto 2.8rem;
 }
@@ -75,6 +75,7 @@ a {
 .sec-header p {
   font-family: "Poppins", sans-serif;
 }
+
 /*             */
 /* Components */
 /*           */
@@ -84,15 +85,14 @@ a {
 .main-header {
   width: 100%;
   height: 100vh;
-  background-image: url(../assets/bg-img.jpg);
+  background: url(../assets/bg-img.jpg) no-repeat center center;
   background-size: cover;
-  background-position: center center;
   text-align: center;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 4rem;
+  margin-bottom: 10rem;
   position: relative;
 }
 .overlay {
@@ -124,14 +124,21 @@ a {
   font-family: "Poppins", sans-serif;
 }
 
-/*         */
-/* Donate */
-/*       */
+.donate-btn {
+  padding: 0;
+}
+
+.btn a {
+  padding: 1.2rem 1.6rem;
+}
+
+/*                 */
+/* Donate section */
+/*               */
 
 .donation-amount-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 2.8rem;
@@ -140,7 +147,7 @@ a {
 .donation-amount-container span {
   background-color: #fafafa;
   padding: 1.8rem;
-  border-radius: 0.6rem;
+  border-radius: 0.5rem;
   cursor: pointer;
 }
 
@@ -177,9 +184,9 @@ a {
   font-family: "Poppins", sans-serif;
 }
 
-/*           */
-/* Donation */
-/*         */
+/*                 */
+/* Donation Plan  */
+/*               */
 
 .donate-plan-card-container {
   display: flex;
@@ -191,7 +198,7 @@ a {
   flex-basis: 33.33%;
   font-family: "Poppins", sans-serif;
   background-color: rgba(79, 157, 166, 0.1);
-  border-radius: 0.6rem;
+  border-radius: 0.5rem;
   padding: 3.2rem 1.8rem;
   display: flex;
   flex-direction: column;
@@ -222,11 +229,11 @@ a {
   background-color: #fff4d6;
 }
 
-/*                 */
-/* Our activities */
-/*               */
+/*                                      */
+/* Our activities  and Afffected people*/
+/*                                    */
 
-.img-galary-container {
+.img-gallery-container {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
