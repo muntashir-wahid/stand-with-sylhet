@@ -40,10 +40,15 @@ a {
   color: #fff;
 }
 
-.small-sec {
+.small-sec,
+.larg-sec {
   width: 60%;
-  margin: 0 auto;
+  margin: 0 auto 3.4rem;
   padding: 1.2rem;
+}
+
+.larg-sec {
+  width: 80%;
 }
 
 .sec-header {
@@ -52,7 +57,12 @@ a {
   align-items: center;
   gap: 0.8rem;
   text-align: center;
-  margin-bottom: 2.2rem;
+  margin-bottom: 2.8rem;
+}
+
+.larg-sec .sec-header {
+  width: 60%;
+  margin: 0 auto 2.8rem;
 }
 
 .sec-header h2 {
@@ -119,6 +129,13 @@ a {
   background-color: #fafafa;
   padding: 1.8rem;
   border-radius: 0.6rem;
+  cursor: pointer;
+}
+
+.donation-amount-container .heighlight {
+  border: 0.1rem solid #ff5959;
+  background-color: rgba(255, 89, 89, 0.1);
+  color: #ff5959;
 }
 
 .donation-form {
@@ -146,4 +163,69 @@ a {
 .donation-form input[placeholder] {
   text-align: center;
   font-family: "Poppins", sans-serif;
+}
+
+/*           */
+/* Donation */
+/*         */
+
+.donate-plan-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.donate-plan-card {
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(79, 157, 166, 0.1);
+  border-radius: 0.6rem;
+  padding: 3.2rem 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.205) 9, 99, 99;
+}
+
+.donate-plan-card h4 {
+  font-size: 2.4rem;
+  color: #121212;
+  font-weight: 600;
+}
+
+.icon {
+  width: 6rem;
+  height: 6rem;
+}
+
+.azure {
+  background-color: rgba(79, 157, 166, 0.1);
+}
+
+.white-smoke {
+  background-color: #ffeeee;
+}
+
+.half-dutch-white {
+  background-color: #fff4d6;
+}
+
+/*         */
+/* Footer */
+/*       */
+
+.footer {
+  width: 100%;
+  background-color: #0b0d17;
+  text-align: center;
+  color: #d9dbe1;
+  font-size: 1.4rem;
+  font-family: "Manrope", sans-serif;
+  padding: 3.6rem 0;
+}
+
+.footer h4 {
+  color: #ff5959;
+  font-size: 3.6rem;
+  font-family: "Lobster", cursive;
+  margin-bottom: 1.4rem;
 }
