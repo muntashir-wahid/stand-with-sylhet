@@ -92,6 +92,20 @@ a {
   justify-content: center;
   align-items: center;
   margin-bottom: 4rem;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(
+    circle at center,
+    rgba(177, 177, 177, 0.2) 40%,
+    black
+  );
+  opacity: 0.8;
 }
 
 .main-header-text__box {
@@ -100,6 +114,7 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 2.2rem;
+  z-index: 1;
 }
 
 .main-header-text__box h1 {
