@@ -1,5 +1,70 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  pad: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #f1f1f1;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: "Inter", "Poppins", sans-serif;
+  line-height: 1.5;
+  color: #707070;
+}
+
+/*                 */
+/* General styles */
+/*               */
+
+a {
+  display: block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background-color: #ff5959;
+  padding: 1.2rem 1.6rem;
+  border-radius: 0.8rem;
+}
+
+/*             */
+/* Components */
+/*           */
+
+/* Header */
+
+.main-header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../assets/bg-img.jpg);
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-header-text__box {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.2rem;
+}
+
+.main-header-text__box h1 {
+  font-size: 6.5rem;
+  line-height: 1.1;
+  letter-spacing: -0.1rem;
 }
